@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {}
+
+.display {
+    display: inline-block;
+    /*  background: linear-gradient(179deg, #2C4861, #0c103e85);*/
+    background-image: repeating-linear-gradient(216deg, rgb(0 0 0) 0px, rgb(0, 0, 0) 19px, black 19px, transparent 22px),
+        repeating-linear-gradient(135deg, rgb(6 6 6) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px),
+        repeating-linear-gradient(338deg, rgb(0, 0, 0) 0px, rgb(0 0 0) 19px, transparent 19px, transparent 22px),
+        linear-gradient(90deg, rgb(17 16 16), rgb(127, 74, 152));
+    position: absolute;
+}
+
+.star {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(45deg, #e9e1e1f2, #e2d4d487);
+    top: 10px;
+    left: 45%;
+    position: relative;
+    clip-path: polygon(57% -22%, 51% 0%, 61% 33%, 103% 34%, 69% 51%, 83% 85%, 50% 63%, 20% 86%, 33% 53%, 3% 32%, 40% 33%);
+}
+
+.star1 {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(45deg, #e9e1e1f2, #e2d4d487);
+    float: left;
+    top: 210px;
+    position: relative;
+    clip-path: polygon(57% -22%, 51% 0%, 61% 33%, 103% 34%, 69% 51%, 83% 85%, 50% 63%, 20% 86%, 33% 53%, 3% 32%, 40% 33%)
+}
+
+.star:hover {
+    background: yellow;
+}
+
+.star2 {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(45deg, #e9e1e1f2, #e2d4d487);
+    float: right;
+    top: 210px;
+    position: relative;
+    clip-path: polygon(57% -22%, 51% 0%, 61% 33%, 103% 34%, 69% 51%, 83% 85%, 50% 63%, 20% 86%, 33% 53%, 3% 32%, 40% 33%)
+}
+
+.star3 {
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(45deg, #e9e1e1f2, #e2d4d487);
+    float: left;
+    top: 75px;
+    left: 100px;
+    position: relative;
+    clip-path: polygon(57% -22%, 51% 0%, 61% 33%, 103% 34%, 69% 51%, 83% 85%, 50% 63%, 20% 86%, 33% 53%, 3% 32%, 40% 33%)
+}
+
+.star4 {
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(45deg, #e9e1e1f2, #e2d4d487);
+    float: right;
+    top: 75px;
+    right: 100px;
+    position: relative;
+    clip-path: polygon(57% -22%, 51% 0%, 61% 33%, 103% 34%, 69% 51%, 83% 85%, 50% 63%, 20% 86%, 33% 53%, 3% 32%, 40% 33%)
+}
+
+.star5 {
+    height: 85px;
+    width: 85px;
+    background: linear-gradient(45deg, #e9e1e1f2, #e2d4d487);
+    float: left;
+    top: -24px;
+    left: 240px;
+    position: relative;
+    clip-path: polygon(57% -22%, 51% 0%, 61% 33%, 103% 34%, 69% 51%, 83% 85%, 50% 63%, 20% 86%, 33% 53%, 3% 32%, 40% 33%)
+}
+
+.star6 {
+    height: 85px;
+    width: 85px;
+    background: linear-gradient(45deg, #e9e1e1f2, #e2d4d487);
+    float: right;
+    top: -24px;
+    right: 240px;
+    position: relative;
+    clip-path: polygon(57% -22%, 51% 0%, 61% 33%, 103% 34%, 69% 51%, 83% 85%, 50% 63%, 20% 86%, 33% 53%, 3% 32%, 40% 33%)
+}
+
+.moon {
+    height: 120px;
+    width: 120px;
+    border: 1px solid #dcd9c4;
+    border-radius: 100%;
+    position: relative;
+    top: 18%;
+    left: 45%;
+    box-shadow: 9px -4px 20px 9px #3e6590;
+    background: #e2dbce;
+}
